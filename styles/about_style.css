@@ -1,0 +1,55 @@
+body {
+    background-color: plum;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h2 {
+    color: brown;
+    background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    column-count: 2;
+    column-gap:30px;
+}
+
+/* Style for the first div */
+.first-div {
+    background-color: burlywood;
+    padding: 20px ;
+    border: 2px solid azure
+}
+
+.first-div ul {
+    list-style-type: circle;
+}
+
+.first-div li {
+    color: darkcyan;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.second-div {
+    border-bottom: 4px dashed azure;
+    border-left: 2.5px dashed azure;
+}
+
+.second-div li {
+    /* text-shadow: 2px 1px lightsalmon; */
+    text-shadow: 2px 1px #ffde24;

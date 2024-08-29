@@ -1,0 +1,67 @@
+p.introduction {
+       color: blueviolet;
+}
+
+p.duration {
+       color: gray;
+}
+
+p.activities {
+       color: brown;
+}
+
+p.activities.watched-list {
+       border: 1px dashed
+}
+
+#content {
+       background-color: #ebebeb;
+       padding: 10px;
+}
+
+p.right-now {
+       font-size: large;
+       font-style: italic;
+       margin: 20px;
+}
+
+a[href="https://www.thenetninja.co.uk"] {
+       background-color: bisque;
+       font-weight: bold;
+       text-transform: unset;
+       margin: 20px;
+}
+
+a[href*="google"] {
+       text-decoration: line-through;
+       border: 3px solid brown;
+       color: rgb(121, 155, 168);
+       margin: 20px;
+}
+
+a[href$=".com"] {
+             font-weight: bold; /* Make the text bold */
+             background-color: lightyellow; /* Set a light yellow background */
+             padding: 5px; /* Add padding inside the element */
+             border-radius: 4px; /* Round the corners */
+             border: 2px solid green; /* Add a green border */
+             transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+             margin: 20px;
+      }
+      
+      a[href$=".com"]:hover {
+             background-color: darkgreen; /* Change background color on hover */
+             color: white; /* Change text color on hover */
+             margin: 20px;
+      }
+
+div{
+             color: red;
+             border: 3px solid grey;
+             margin: 10px; 
+             padding: 20px;   
+}
+
+p{
+       padding: inherit;
+}
